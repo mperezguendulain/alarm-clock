@@ -1,0 +1,89 @@
+body {
+    background: #ecf0f1;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-color: rgb(18, 157, 191);
+    background-image: url("/img/fondo3.png");
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.menu {
+    height: 70px;
+    background: #e8fcff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-menu {
+    background: #46b3ec;
+    color: white;
+    cursor: pointer;
+}
+
+#clock {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: rgb(56, 211, 245);*/
+    width: 150px;
+}
+
+#clock p {
+    font-size: 5em;
+}
+
+#clock button {
+    border: none;
+}
+
+.btn-time {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(31, 188, 230);
+    color: white;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.btn-time-up {
+    border-radius: 35px 35px 0px 0px;
+}
+
+.btn-time-down {
+    border-radius: 0px 0px 35px 35px;
+}
+
+.time-am-pm {
+    background-color: rgb(31, 188, 230);
+    margin-left: 30px;
+    font-size: 5em;
+    cursor: pointer;
+}
+
+.setHora {
+    margin-top: 30px;
+    background-color: rgb(31, 188, 230);
+    color: white;
+    border: none;
+    font-size: 4em;
+    cursor: pointer;
+}
