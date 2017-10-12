@@ -1,6 +1,5 @@
 /*
-* Autores:  Martín Alejandro Pérez Güendulain
-*           Ángel Roberto Móntez Murgas
+* Autor: Martín Alejandro Pérez Güendulain
 */
 
 let app = new Vue({
